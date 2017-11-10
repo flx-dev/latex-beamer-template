@@ -1,0 +1,42 @@
+\documentclass[xcolor=dvipsnames]{beamer}
+\usetheme{Warsaw}
+\usecolortheme[named=Red]{structure}
+
+\title{Presentation title}
+\author{Author}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\frame{
+  \frametitle{Table of contents}
+  \tableofcontents
+}
+
+\section{Introduction}
+\begin{frame}
+    Place introduction here
+\end{frame}
+
+
+\section{Theory}
+\begin{frame}
+    \frametitle{Poiseuille's Law}
+    \begin{itemize}
+        \item Describes laminar flow through a capillar or pipe
+        \item No-Slip condition, zero velocity at boundaries \cite{washburn}
+    \end{itemize}
+    \begin{definition}
+        \begin{align}
+            \frac{\text{d}l}{\text{d}t} = \frac{\left[ P_A + gD(h-l_s\sin \psi) + 2\gamma r^{-1}\cos \theta\right](r^2 + 4\epsilon r)}{8\eta l}
+        \end{align} 
+    \end{definition}
+\end{frame}
+
+\begin{frame}
+    \bibliographystyle{apalike}
+    \bibliography{bibliography}
+\end{frame}
+
+\end{document}

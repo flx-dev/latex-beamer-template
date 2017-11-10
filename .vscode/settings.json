@@ -1,0 +1,29 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "latex-workshop.latex.toolchain": [
+        {
+            "command": "pdflatex",
+            "args": [
+                "-file-line-error",
+                "%DOC%"
+            ]
+        }, {
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ]
+        }, {
+            "command": "pdflatex",
+            "args": [
+                "-file-line-error",
+                "%DOC%"
+            ]
+        }, {
+            "command": "pdflatex",
+            "args": [
+                "-file-line-error",
+                "%DOC%"
+            ]
+        }
+    ]
+}

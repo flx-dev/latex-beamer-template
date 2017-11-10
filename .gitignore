@@ -1,0 +1,15 @@
+# IDE settings
+.vscode/*
+!.vscode/settings.json
+
+# Latex Output files
+*.pdf
+*.aux
+*.bbl
+*.blg
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+
